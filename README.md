@@ -72,8 +72,10 @@
 # for run headed mode: 
 ### npx cypress run --headed --browser chrome --env allure=true
 
-# for run headed mode: 
+# for run headless mode: 
 ### npx cypress run --headless --browser chrome --env allure=true
+# To see allure report just command:
+### allure serve
 
 # Run Cypress with annotation Commands
 ### npx cypress-tags run -e TAGS ='@Your-annotation'
