@@ -13,10 +13,36 @@ And('I Type QA Engineer', () => {
     locators.Two
 })
 
-Then('I Select Organization Type', () => {
+Then('I Select Organization Type Government', () => {
     cy.get(locators.organizationType).select("1")
     locators.Two
 })
+
+Then('I Select Organization Type Semi Government', () => {
+    cy.get(locators.organizationType).select("2")
+    locators.Two
+})
+
+Then('I Select Organization Type NGO', () => {
+    cy.get(locators.organizationType).select("3")
+    locators.Two
+})
+
+Then('I Select Organization Type Private Firm Company', () => {
+    cy.get(locators.organizationType).select("4")
+    locators.Two
+})
+
+Then('I Select Organization Type International Agencies', () => {
+    cy.get(locators.organizationType).select("5")
+    locators.Two
+})
+
+Then('I Select Organization Type Others', () => {
+    cy.get(locators.organizationType).select("6")
+    locators.Two
+})
+
 Then('I click Search Button', () => {
     cy.get(locators.searchButton).click()
     locators.Two

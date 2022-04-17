@@ -9,7 +9,7 @@ Given('I open Google page', () => {
 })
 
 And('I see Google in the title', () => {
-    cy.get(locators.googleSearchTxtBox).type(data.TypeSubject)
+    cy.get(locators.googleSearchTxtBox).type(`${data.TypeSubject}{enter}`)
     locators.Two
 })
 

@@ -7,6 +7,6 @@ class Data {
     password = "rm123456789"
 
     searchJob = 'QA Engineer'
-    TypeSubject = "QA Engineer"
+    TypeSubject = "QA Engineer Job"
 }
 module.exports = new Data();
