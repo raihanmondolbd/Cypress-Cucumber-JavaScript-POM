@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2022-04-18T12:18:47.359Z",
-    "end": "2022-04-18T12:19:30.791Z",
-    "duration": 43432,
+    "start": "2022-04-18T12:32:50.224Z",
+    "end": "2022-04-18T12:33:18.165Z",
+    "duration": 27941,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "3e4efe13-d657-42fd-9eea-428a2202dcf2",
+      "uuid": "7feb15e6-961a-410b-a9bb-bccdc9267b45",
       "title": "",
       "fullFile": "cypress/integration/Google.feature",
       "file": "cypress/integration/Google.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d4fe6714-76fb-4e24-a083-0a259da913ee",
+          "uuid": "63e16b53-ff3a-4d0c-b3a4-09afaebf711f",
           "title": "Google Main Page",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Opening a search engine page",
               "fullTitle": "Google Main Page Opening a search engine page",
               "timedOut": null,
-              "duration": 20378,
+              "duration": 11889,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "dab199ff-eaf1-4eeb-aa46-3af79ea2f977",
-              "parentUUID": "d4fe6714-76fb-4e24-a083-0a259da913ee",
+              "uuid": "1e956528-04b4-4125-b802-1e5b4daced8c",
+              "parentUUID": "63e16b53-ff3a-4d0c-b3a4-09afaebf711f",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Opening Gmail page",
               "fullTitle": "Google Main Page Opening Gmail page",
               "timedOut": null,
-              "duration": 13168,
+              "duration": 10845,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "65e4b5d8-1e8d-41cf-a77e-0672dd1d99af",
-              "parentUUID": "d4fe6714-76fb-4e24-a083-0a259da913ee",
+              "uuid": "5ae28727-aef7-4213-813c-4d99b4591db9",
+              "parentUUID": "63e16b53-ff3a-4d0c-b3a4-09afaebf711f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "dab199ff-eaf1-4eeb-aa46-3af79ea2f977",
-            "65e4b5d8-1e8d-41cf-a77e-0672dd1d99af"
+            "1e956528-04b4-4125-b802-1e5b4daced8c",
+            "5ae28727-aef7-4213-813c-4d99b4591db9"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 33546,
+          "duration": 22734,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
